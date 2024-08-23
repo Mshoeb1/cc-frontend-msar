@@ -79,7 +79,7 @@ class Register extends Component {
       tag,
     };
     console.log(areaOfExperties);
-    const url = "https://career-crave-backend-msar.onrender.com//register";
+    const url = "https://career-crave-backend-msar.onrender.com/register";
     const options = {
       method: "POST",
       mode: "cors",
