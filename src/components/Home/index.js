@@ -19,13 +19,14 @@ class Home extends Component {
 
   fetchMentor = async () => {
     const jwtToken = Cookies.get("jwt_token");
-    const url = "http://localhost:4000/mentors";
+    const url = "https://career-crave-backend-msar.onrender.com/mentors";
     const options = {
       method: "GET",
       mode: "cors",
       headers: {
         Authorization: `Bearer ${jwtToken}`,
-        "Access-Control-Allow-Origin": "http://localhost:4000",
+        "Access-Control-Allow-Origin":
+          "https://career-crave-backend-msar.onrender.com/",
         "Access-Control-Allow-Credentials": true,
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -65,12 +66,13 @@ class Home extends Component {
     const timeSlot = mentors.availability;
     let jwtToken = Cookies.get("jwt_token");
     const details = { studentId, mentorId, mentorName, jwtToken, timeSlot };
-    const url = "http://localhost:4000/bookings";
+    const url = "https://career-crave-backend-msar.onrender.com//bookings";
     const options = {
       method: "POST",
       mode: "cors",
       headers: {
-        "Access-Control-Allow-Origin": "http://localhost:4000/",
+        "Access-Control-Allow-Origin":
+          "https://career-crave-backend-msar.onrender.com/",
         "Access-Control-Allow-Credentials": true,
         "Content-Type": "application/json",
         Accept: "application/json",

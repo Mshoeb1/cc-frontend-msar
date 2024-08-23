@@ -15,13 +15,14 @@ class Booking extends Component {
     const jwtToken = Cookies.get("jwt_token");
     const storedUserData = localStorage.getItem("details");
     const { id } = JSON.parse(storedUserData);
-    const url = `http://localhost:4000/bookings/${id}`;
+    const url = `https://career-crave-backend-msar.onrender.com/bookings/${id}`;
     const options = {
       method: "GET",
       mode: "cors",
       headers: {
         Authorization: `Bearer ${jwtToken}`,
-        "Access-Control-Allow-Origin": "http://localhost:4000",
+        "Access-Control-Allow-Origin":
+          "https://career-crave-backend-msar.onrender.com/",
         "Access-Control-Allow-Credentials": true,
         "Content-Type": "application/json",
         Accept: "application/json",

@@ -79,12 +79,13 @@ class Register extends Component {
       tag,
     };
     console.log(areaOfExperties);
-    const url = "http://localhost:4000/register";
+    const url = "https://career-crave-backend-msar.onrender.com//register";
     const options = {
       method: "POST",
       mode: "cors",
       headers: {
-        "Access-Control-Allow-Origin": "http://localhost:4000/",
+        "Access-Control-Allow-Origin":
+          "https://career-crave-backend-msar.onrender.com/",
         "Access-Control-Allow-Credentials": true,
         "Content-Type": "application/json",
         Accept: "application/json",
