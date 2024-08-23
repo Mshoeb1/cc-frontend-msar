@@ -66,7 +66,7 @@ class Home extends Component {
     const timeSlot = mentors.availability;
     let jwtToken = Cookies.get("jwt_token");
     const details = { studentId, mentorId, mentorName, jwtToken, timeSlot };
-    const url = "https://career-crave-backend-msar.onrender.com//bookings";
+    const url = "https://career-crave-backend-msar.onrender.com/bookings";
     const options = {
       method: "POST",
       mode: "cors",

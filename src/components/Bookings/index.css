@@ -21,6 +21,8 @@
   margin: 0px;
   width: 100%;
   margin-bottom: 20px;
+  overflow-y: auto;
+  height: 300px;
 }
 
 .booking-item {
