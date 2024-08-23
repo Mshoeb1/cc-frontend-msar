@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Getting Started with Career Crave App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+When you open the link first you will see login page if your are a registered user / mentor you can log in directly before that you have to confirm your identity first by clicking log in as student / mentor button .
 
-## Available Scripts
+## Sign Up page
 
-In the project directory, you can run:
+If you are not a registered user then you have to create your account first who ever you are like mentor or student in order to register you have to first confirm your identity first by clicking any on the these button student / mentor after that fill your details accordingly then click the sign up button:
 
-### `npm start`
+### `Home Page`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Post Successful login you will be redirected to your respective screen like student or mentor.
+if you login as a student you will fetch mentor button on home screen by clicking this button you can fetch all the available mentors according to your area of interest.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To select the mentor you have to select any one of the mentor at a time it will store the data into the database.
+Post selection of mentor you have to click book now button to see your bookings.
 
-### `npm test`
+### `Booking Page`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In booking page you can see list of appointment schedule with mentor and type of service too.
+Post confirming your appointment you have to click make payment button it will redirected to you on payment.
 
-### `npm run build`
+### `Payment Page`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+At payment page is just a UI how it looks and it has two buttons when you click on cancel payment button it will redirect to you Home page.

@@ -1,0 +1,210 @@
+.main-registration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+.register-intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebbd34;
+  height: 100%;
+  width: 50%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 30px;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 70px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.main-para {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-para {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.icon-colour {
+  height: 25px;
+  width: 25px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.form-outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  padding: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 300px;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+
+.form-heading {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-bottom: 15px;
+  font-family: Tahoma;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.input-label {
+  font-size: 14px;
+  color: black;
+}
+
+.username-input-field {
+  font-size: 13px;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: transparent;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.username-input-field:hover {
+  border: 1px solid #1b201f;
+  border-left: 5px solid #ebbd34;
+}
+
+.availability-input {
+  font-size: 13px;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: transparent;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px;
+  outline: none;
+}
+
+.select-input-field {
+  font-size: 13px;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: transparent;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px;
+  outline: none;
+}
+
+.optionEl {
+  color: black;
+}
+
+.optionEl:hover {
+  background-color: lightgray;
+}
+
+.login-button {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  min-width: 40%;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  background-color: #ebbd34;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+}
+
+.login-button:hover {
+  border-radius: 20px;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+
+.account-span {
+  font-size: 13px;
+  color: #4260f5;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.account-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.account-button {
+  background-color: #ebbd34;
+  border: none;
+  padding: 7px;
+  text-align: center;
+  min-width: 100px;
+  height: 30px;
+  color: #ffffff;
+}
+
+.account-button:hover {
+  border-radius: 15px;
+}
